@@ -1,9 +1,11 @@
 package com.github.artembondar.tmdbapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.fragment.app.FragmentActivity;
+
+
+public class MainActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
