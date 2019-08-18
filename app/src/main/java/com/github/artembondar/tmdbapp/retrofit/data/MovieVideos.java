@@ -1,7 +1,8 @@
-package com.github.artembondar.tmdbapp.data;
+package com.github.artembondar.tmdbapp.retrofit.data;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Collections;
 import java.util.List;
 
 public class MovieVideos {
@@ -10,7 +11,7 @@ public class MovieVideos {
     public String movieId;
 
     @SerializedName("results")
-    public List<Video> videos;
+    public List<Video> videos = Collections.emptyList();
 
     @Override
     public String toString() {

@@ -1,8 +1,8 @@
 package com.github.artembondar.tmdbapp.retrofit;
 
-import com.github.artembondar.tmdbapp.data.Movie;
-import com.github.artembondar.tmdbapp.data.MovieVideos;
-import com.github.artembondar.tmdbapp.data.UpcomingMovies;
+import com.github.artembondar.tmdbapp.retrofit.data.Movie;
+import com.github.artembondar.tmdbapp.retrofit.data.MovieVideos;
+import com.github.artembondar.tmdbapp.retrofit.data.UpcomingMovies;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;

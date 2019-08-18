@@ -1,4 +1,4 @@
-package com.github.artembondar.tmdbapp.data;
+package com.github.artembondar.tmdbapp.retrofit.data;
 
 import com.google.gson.annotations.SerializedName;
 

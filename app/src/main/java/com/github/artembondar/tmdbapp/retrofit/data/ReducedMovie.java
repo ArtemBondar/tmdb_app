@@ -1,4 +1,4 @@
-package com.github.artembondar.tmdbapp.data;
+package com.github.artembondar.tmdbapp.retrofit.data;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -6,6 +6,9 @@ public class ReducedMovie {
 
     @SerializedName("poster_path")
     public String posterImagePath;
+
+    @SerializedName("backdrop_path")
+    public String backdropImagePath;
 
     @SerializedName("title")
     public String title;
@@ -20,6 +23,7 @@ public class ReducedMovie {
     public String toString() {
         return "ReducedMovie{" +
                 "posterImagePath='" + posterImagePath + '\'' +
+                ", backdropImagePath='" + backdropImagePath + '\'' +
                 ", title='" + title + '\'' +
                 ", id=" + id +
                 ", releaseDate='" + releaseDate + '\'' +

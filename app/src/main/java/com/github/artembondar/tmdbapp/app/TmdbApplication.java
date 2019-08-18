@@ -17,7 +17,8 @@ public class TmdbApplication extends Application {
         super.onCreate();
         instance = this;
         Stetho.initializeWithDefaults(this);
-        applicationComponent = DaggerApplicationComponent.builder().build();
+        applicationComponent = DaggerApplicationComponent.builder().
+                build();
     }
 
 

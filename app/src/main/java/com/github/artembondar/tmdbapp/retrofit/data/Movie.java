@@ -1,7 +1,8 @@
-package com.github.artembondar.tmdbapp.data;
+package com.github.artembondar.tmdbapp.retrofit.data;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Collections;
 import java.util.List;
 
 public class Movie extends ReducedMovie {
@@ -19,7 +20,7 @@ public class Movie extends ReducedMovie {
     public int budget;
 
     @SerializedName("spoken_languages")
-    public List<SpokenLanguage> spokenLanguages;
+    public List<SpokenLanguage> spokenLanguages = Collections.emptyList();
 
     @Override
     public String toString() {
